@@ -1,0 +1,94 @@
+#conteneur {
+	display: flex;
+	justify-content:center;
+}
+
+h2{
+	padding-left: 105px;
+	padding-bottom: 10px;
+}
+
+.information{
+	padding-top:20px; 
+	padding-left: 40px;
+	padding-right: 20px;
+	border: 30px;
+	background-color: #B0C4DE;
+	border-radius: 0px 50px 50px 0px;
+	
+}
+
+.produit{
+	border-radius: 50px 0px 0px 50px;
+	padding-right: 5px;
+	background-color: #F5F5DC;
+}
+
+#conteneur2 {
+	display:flex
+}
+#cardexpiration{
+	margin-left: 30px;
+}
+
+.selection{
+	margin-left: 30px;
+
+}
+
+#cardtype {
+	display: flex;
+	padding-bottom: 50px;
+
+}
+
+#cardnumber{
+	margin-top: 80px;
+}
+
+#numero{
+	height:30px;
+	padding-top: 5px;
+	width: 250px;
+}
+
+#appartenant{
+	height:30px;
+	width: 250px;
+}
+.cla3, .cla1, .cla5, .cla6{
+	padding-bottom: 5px;
+}
+
+#conteneurnike, #conteneurbag, #conteneurboite{
+	display: flex;
+	padding-bottom: 10px;
+}
+
+.nike{
+	margin-left: 10px;
+}
+.bag{
+	margin-left: 80px;
+	margin-top: 30px;
+}
+hr{
+	width: 350px;
+	height: 1.5px;
+	background-color: black;
+	border-radius: 100px;
+	opacity: 0.5px;
+}
+
+/*.information #cardholder{
+	display: flex;
+	flex-direction: column;
+}
+.information #cardmdp{
+	display: flex;
+	flex-direction: column;
+}
+.information #cardexpiration{
+	display: flex;
+	flex-direction: column;
+}*/

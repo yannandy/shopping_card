@@ -1,0 +1,118 @@
+<!Doctype html>
+<html lang="fr">
+
+<head>
+<meta charset ="UTF-8">
+<title> SHOPPING CARD </title>
+<link rel="stylesheet" href="shoppingcardstyle.css">
+
+</head>
+
+<body>
+  <div id="conteneur">
+	<div class="produit">
+	<p><div class="title"><h2>Order Summary</h2></div></p> <hr/>
+		<div id ="conteneurnike">
+			<div class="nikeimg"> <img src="nikepic.jpg" alt="Photo nike air force"/> </div>
+			<div class="nike">
+				Nike</br>Free run 3.0 Women</br>Color:Grey/Orange. Size 10.5<br/> $99.95
+			</div>
+		</div>
+		<hr/>
+		<div id ="conteneurbag">
+			<div class="bagimg"> <img src="bacpic.jpg" alt="Photo sac en cuir" /> </div>
+			<div class="bag">
+				<p>FJALLRAVEN <br/> Vintage BackPack</br> Color:Olive Size:20L </p>
+			</div>
+		</div>
+		<hr/>
+		<div id ="conteneurboite">
+			<div class="boiteimg"> <img src="anothernike.jpg" alt="Encore un autre nike" /> </div>
+			<div class="boite">
+				<p>MONOBENTO </br> Double Launch box</br>Color: pink Size: medium</p>
+			</div>
+		</div>
+	</div>
+	<div class="information">
+		<form method="post" action="traitement.php">
+		  <div id="cardtype">
+			
+			
+				<div class="dutexte">PLEASE SELECT YOUR CARD:</div>  
+				<div class="selection">
+				<select name="pays" id="pays">
+				<option value="express">American Express</option>
+				<option value="visa">VISA</option>
+				<option value="union">Express Union</option>
+				<option value="stripe">STRIPE</option>
+				</select>
+				</br>
+				</div>
+			
+		  </div>
+			
+		  <div id="cardnumber">
+			<p>	 
+				<div class="cla1">
+				<label form="numero">
+					CARD NUMBER
+				</label>
+				</div>
+				<div class="cla2">
+				<input type="tel" name="numero" id="numero" />
+				</div>
+			</p>
+		  </div>
+		  
+		  <div id="cardholder">
+			
+			<p>
+			<div class="cla3">
+				<label form="appartenant">
+					CARD HOLDER
+				</label>
+			</div>			
+			<div class="cla4">
+			<input type="text" name="appartenant" id="appartenant" />
+			</div>
+			</p>
+		  </div>
+			
+			<div id="conteneur2">
+		    <div id="cardmdp">
+
+			<p>
+			
+			<div class="cla5">
+				<label form="mdp">
+					CVV
+				</label>
+			</div>
+			<div class="cla">
+				<input type="password" name="mdp" id="mdp" />
+			</div>
+			</p>
+		  </div>
+			
+		  <div id="cardexpiration">
+			<p>
+			<div class="cla6">
+				<label form="expiration">
+					EXPIRES
+				</label>
+			</div>
+			<div class="cla7">
+				<input type="date" name="expiration" id="expiration" />
+			</div>	
+			</p>
+		  </div>
+		</div>  
+			
+		</form>
+	</div>
+  </div>
+
+
+</body>
+
+</html>
